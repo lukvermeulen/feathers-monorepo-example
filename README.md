@@ -11,11 +11,11 @@ The monorepo is setup with
 
 By default the structure right now looks like the following:
 
-/apps
-----/api (featherjs)
-----/web-client (nextjs)
-/libs
-----/components (react)
+/apps <br/>
+----/api (featherjs) <br/>
+----/web-client (nextjs) <br/>
+/libs <br/>
+----/components (react) <br/>
 
 A shared component lib hosts created react components that can be used in other applications.
 The web-client imports a typed client from the api.
