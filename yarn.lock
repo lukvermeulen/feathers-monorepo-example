@@ -8314,9 +8314,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"information-tiles@workspace:.":
+"feathers-monorepo-example@workspace:.":
   version: 0.0.0-use.local
-  resolution: "information-tiles@workspace:."
+  resolution: "feathers-monorepo-example@workspace:."
   dependencies:
     "@feathersjs/authentication-client": pre
     "@feathersjs/rest-client": pre
