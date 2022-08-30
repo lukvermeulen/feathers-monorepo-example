@@ -1,0 +1,17 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.button {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgb(48, 48, 48);
+}
