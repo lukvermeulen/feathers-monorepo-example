@@ -11,5 +11,8 @@
   ],
   "devDependencies": {
     "nx": "14.5.10"
+  },
+  "dependencies": {
+    "@nrwl/next": "^14.5.10"
   }
 }
