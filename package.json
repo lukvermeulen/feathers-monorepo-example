@@ -1,8 +1,12 @@
 {
-  "name": "information-tiles",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Luk Vermeulen",
-  "license": "MIT",
-  "private": true
+    "name": "information-tiles",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Luk Vermeulen",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "libs/*"
+    ]
 }
