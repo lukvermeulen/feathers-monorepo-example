@@ -1,18 +1,24 @@
-
-  import styles from './index.module.css';
-import { Button } from "components"
-
-
+import { Button } from "components";
+import { useEffect, useState } from "react";
+import client from "../feathers";
 
 export function Index() {
-  /*
-   * Replace the elements below with your own.
-   *
-   * Note: The corresponding styles are in the ./index.css file.
-   */
-  return (
-    <Button/>
-  );
-};
+    const [testResponse, setTestResponse] = useState<string>("");
+
+    useEffect(() => {
+        const res = client.service("users").find();
+        res.catch((error) => {
+            console.log(error);
+            // setTestResponse(error);
+        });
+    }, []);
+
+    return (
+        <>
+            <p>{testResponse}</p>
+            <Button />
+        </>
+    );
+}
 
 export default Index;

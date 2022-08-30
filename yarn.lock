@@ -1565,6 +1565,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@feathersjs/authentication-client@npm:pre":
+  version: 5.0.0-pre.28
+  resolution: "@feathersjs/authentication-client@npm:5.0.0-pre.28"
+  dependencies:
+    "@feathersjs/authentication": ^5.0.0-pre.28
+    "@feathersjs/commons": ^5.0.0-pre.28
+    "@feathersjs/errors": ^5.0.0-pre.28
+    "@feathersjs/feathers": ^5.0.0-pre.28
+  checksum: 35b1cb6b7fea53a334bc563063ed88589c84c73f7cb342779508d502abbc72b4449ccd7ff10f8d11cf147b8ddc369406276e852e345ada0be259061ab144427c
+  languageName: node
+  linkType: hard
+
 "@feathersjs/authentication-local@npm:^5.0.0-pre.28":
   version: 5.0.0-pre.28
   resolution: "@feathersjs/authentication-local@npm:5.0.0-pre.28"
@@ -1704,6 +1716,19 @@ __metadata:
   peerDependencies:
     mongodb: ^4.5.0
   checksum: 590ee7a330668b46f52d29d695382e4b6e39e2b2ea3923a59770c326a4e4b883c510e9935fde8e82c7b5f26b789df449d99c39b11de951f26ce81f4556270795
+  languageName: node
+  linkType: hard
+
+"@feathersjs/rest-client@npm:pre":
+  version: 5.0.0-pre.28
+  resolution: "@feathersjs/rest-client@npm:5.0.0-pre.28"
+  dependencies:
+    "@feathersjs/commons": ^5.0.0-pre.28
+    "@feathersjs/errors": ^5.0.0-pre.28
+    "@feathersjs/feathers": ^5.0.0-pre.28
+    "@types/superagent": ^4.1.15
+    qs: ^6.11.0
+  checksum: 9df801dcc8b91fe65aa6dad4150b16068008210e0ac0857217a45bca2b6c6bb4620349e8065e1594defc66532f636957e86930be5c8613467e2c5fa4ea1deb4e
   languageName: node
   linkType: hard
 
@@ -3106,6 +3131,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/cookiejar@npm:*":
+  version: 2.1.2
+  resolution: "@types/cookiejar@npm:2.1.2"
+  checksum: f6e1903454007f86edd6c3520cbb4d553e1d4e17eaf1f77f6f75e3270f48cc828d74397a113a36942f5fe52f9fa71067bcfa738f53ad468fcca0bc52cb1cbd28
+  languageName: node
+  linkType: hard
+
 "@types/cookies@npm:*":
   version: 0.7.7
   resolution: "@types/cookies@npm:0.7.7"
@@ -3526,6 +3558,16 @@ __metadata:
   version: 2.0.1
   resolution: "@types/stack-utils@npm:2.0.1"
   checksum: 205fdbe3326b7046d7eaf5e494d8084f2659086a266f3f9cf00bccc549c8e36e407f88168ad4383c8b07099957ad669f75f2532ed4bc70be2b037330f7bae019
+  languageName: node
+  linkType: hard
+
+"@types/superagent@npm:^4.1.15":
+  version: 4.1.15
+  resolution: "@types/superagent@npm:4.1.15"
+  dependencies:
+    "@types/cookiejar": "*"
+    "@types/node": "*"
+  checksum: 347cd74ef0a29e6b9c6d32253c3fb0dd39a31618b50752f84d36b6a9246237bb6b68c9b436c1f94adabc2df89d9f1939e4782f4c850f98b9c2fe431ad4e565a4
   languageName: node
   linkType: hard
 
@@ -8276,6 +8318,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "information-tiles@workspace:."
   dependencies:
+    "@feathersjs/authentication-client": pre
+    "@feathersjs/rest-client": pre
     "@nrwl/cypress": 14.5.10
     "@nrwl/eslint-plugin-nx": 14.5.10
     "@nrwl/jest": 14.5.10
@@ -11909,7 +11953,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.10.2, qs@npm:^6.4.0, qs@npm:^6.5.2, qs@npm:^6.9.4, qs@npm:^6.9.6":
+"qs@npm:^6.10.2, qs@npm:^6.11.0, qs@npm:^6.4.0, qs@npm:^6.5.2, qs@npm:^6.9.4, qs@npm:^6.9.6":
   version: 6.11.0
   resolution: "qs@npm:6.11.0"
   dependencies:
