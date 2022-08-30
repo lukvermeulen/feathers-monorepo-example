@@ -1,21 +1,25 @@
 {
-  "extends": "nx/presets/npm.json",
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx/tasks-runners/default",
-      "options": {
-        "cacheableOperations": [
-          "dev",
-          "compile",
-          "prettier",
-          "mocha",
-          "test"
-        ]
-      }
+    "extends": "nx/presets/npm.json",
+    "tasksRunnerOptions": {
+        "default": {
+            "runner": "nx/tasks-runners/default",
+            "options": {
+                "cacheableOperations": [
+                    "dev",
+                    "compile",
+                    "prettier",
+                    "mocha",
+                    "test"
+                ]
+            }
+        }
+    },
+    "targetDefaults": {},
+    "affected": {
+        "defaultBase": "master"
+    },
+    "workspaceLayout": {
+        "appsDir": "apps",
+        "libsDir": "libs"
     }
-  },
-  "targetDefaults": {},
-  "affected": {
-    "defaultBase": "master"
-  }
 }
