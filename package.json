@@ -1,12 +1,15 @@
 {
-    "name": "information-tiles",
-    "version": "1.0.0",
-    "main": "index.js",
-    "author": "Luk Vermeulen",
-    "license": "MIT",
-    "private": true,
-    "workspaces": [
-        "apps/*",
-        "libs/*"
-    ]
+  "name": "information-tiles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Luk Vermeulen",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "devDependencies": {
+    "nx": "14.5.10"
+  }
 }
