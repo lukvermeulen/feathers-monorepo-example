@@ -1,2 +1,5 @@
 .yarn
 node_modules
+
+# Next.js
+.next
