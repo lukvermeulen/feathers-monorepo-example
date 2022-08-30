@@ -7,7 +7,9 @@
   "keywords": [
     "feathers"
   ],
-  "author": {"name": "Luk Vermeulen"},
+  "author": {
+    "name": "Luk Vermeulen"
+  },
   "contributors": [],
   "bugs": {},
   "engines": {
